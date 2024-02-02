@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+body {
+  background-color: #c5d1eb;
+  padding: 20px;
+}
+menu {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+
+  gap: 20px;
+  color: #5a7684;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.kategori_link {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+li {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  color: black;
+}
+
+.kategorier {
+  color: white;
+  background-color: #92afd7;
+  border-radius: 4px;
+  padding: 10px 10px;
+
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+}
+.produkter {
+  display: flex;
+  justify-items: center;
+}
+
+.produkter {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
+  gap: 20px;
+  margin-top: 20px;
+}
+.read_more {
+  margin-top: 50px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.sale_pris {
+  color: red;
+}
+.tights_udsolgt {
+  opacity: 0.5;
+}
+.produkt_single {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.produkt {
+  margin: 20px;
+}
+.knap {
+  padding: 10px 10px;
+  background-color: #92afd7;
+}
+.knap:hover {
+  color: white;
+}
+
+@media (min-width: 400px) {
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .produkter {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

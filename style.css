@@ -103,6 +103,13 @@ h3 {
     gap: 20px;
     margin-top: 20px;
   }
+  .produkt_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
   .grid_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -43,6 +43,13 @@ h2 {
 h3 {
   color: black;
 }
+.produkt_link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .kategorier {
   color: white;
@@ -89,6 +96,33 @@ h3 {
 }
 .knap:hover {
   color: white;
+}
+.soldout {
+  opacity: 0.6;
+}
+
+.hide {
+  display: none;
+}
+.soldout p:last-child {
+  position: absolute;
+  background-color: rgb(18, 18, 31);
+  padding: 1rem;
+  top: 30%;
+  width: 290px;
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+.small_product {
+  position: relative;
+}
+
+.udsalg p:last-child {
+  background-color: red;
+  padding: 0.2rem;
+  width: 100px;
+  right: 100px;
 }
 
 @media (min-width: 400px) {
